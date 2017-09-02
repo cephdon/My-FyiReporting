@@ -103,6 +103,10 @@
     <None Include="..\References\dot net 4\Xwt.WPF.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="..\References\dot net 4\Xwt.Gtk.Windows.dll">
+      <Link>Xwt.Gtk.Windows.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataProviders\DataProviders.csproj">
